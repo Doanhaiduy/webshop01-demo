@@ -1,0 +1,27 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --height-header: 35px;
+    --hover-color: #e34444;
+}
+
+
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    
+    /* hack, mac dinh = 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem; 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1.2rem;    
+}
